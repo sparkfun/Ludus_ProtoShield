@@ -26504,7 +26504,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="40.64" y1="127" x2="0" y2="127" width="0.2032" layer="94" style="longdash"/>
 <wire x1="116.84" y1="127" x2="116.84" y2="0" width="0.2032" layer="94" style="longdash"/>
 <text x="149.86" y="7.62" size="2.54" layer="94">B. Huang</text>
-<text x="236.22" y="7.62" size="2.54" layer="94">v01</text>
+<text x="236.22" y="7.62" size="2.54" layer="94">v11</text>
 <wire x1="111.76" y1="185.42" x2="111.76" y2="157.48" width="0.1524" layer="94" style="longdash"/>
 <wire x1="111.76" y1="157.48" x2="40.64" y2="157.48" width="0.2032" layer="94" style="longdash"/>
 <wire x1="40.64" y1="157.48" x2="40.64" y2="127" width="0.1524" layer="94" style="longdash"/>
