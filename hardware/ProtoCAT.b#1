@@ -33,9 +33,9 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
@@ -736,7 +736,7 @@
 <text x="35.687" y="10.668" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="center-right">VCC</text>
 <text x="11.176" y="41.91" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center">POWER SEL</text>
 <text x="35.179" y="12.954" size="0.8128" layer="21" font="vector" ratio="15" rot="R90" align="bottom-center">POWER SEL</text>
-<text x="5.588" y="51.435" size="1.778" layer="16" font="vector" ratio="15" rot="SMR270">V11</text>
+<text x="5.588" y="51.435" size="1.778" layer="16" font="vector" ratio="15" rot="SMR270">V12</text>
 <text x="52.451" y="-13.081" size="1.778" layer="51" font="vector" ratio="15">B. Huang</text>
 <text x="12.7" y="49.403" size="0.8128" layer="21" ratio="15" rot="R270" align="center-left">SDA</text>
 <text x="10.16" y="49.403" size="0.8128" layer="21" ratio="15" rot="R270" align="center-left">SCL</text>
