@@ -738,10 +738,10 @@
 <text x="40.259" y="12.827" size="0.8128" layer="21" font="vector" ratio="15" align="center-right">GND</text>
 <text x="40.259" y="10.287" size="0.8128" layer="21" font="vector" ratio="15" align="center-right">PWR</text>
 <text x="40.259" y="7.747" size="0.8128" layer="21" font="vector" ratio="15" align="center-right">SIG</text>
-<text x="12.192" y="38.1" size="0.8128" layer="21" font="vector" ratio="15" align="top-center">VCC</text>
+<text x="12.192" y="38.1" size="0.8128" layer="21" font="vector" ratio="15" align="top-center">5V</text>
 <text x="12.319" y="45.847" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">VIN</text>
 <text x="35.814" y="18.161" size="0.8128" layer="21" font="vector" ratio="15" align="bottom-center">VIN</text>
-<text x="35.814" y="10.287" size="0.8128" layer="21" font="vector" ratio="15" align="top-center">VCC</text>
+<text x="35.814" y="10.287" size="0.8128" layer="21" font="vector" ratio="15" align="top-center">5V</text>
 <text x="5.588" y="51.435" size="1.778" layer="16" font="vector" ratio="15" rot="SMR270">V02</text>
 <text x="37.211" y="-21.717" size="1.778" layer="51" font="vector" ratio="15">B. Huang</text>
 <text x="12.7" y="49.403" size="0.8128" layer="21" ratio="15" rot="R270" align="center-left">SDA</text>
