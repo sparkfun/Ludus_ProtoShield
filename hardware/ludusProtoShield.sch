@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -32138,10 +32138,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="F2" library="SparkFun-PowerIC" deviceset="PTC" device="SMD" value="PTCSMD"/>
 <part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2" value="FIDUCIAL1X2"/>
 <part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2" value="FIDUCIAL1X2"/>
-<part name="JP20" library="SparkFun-Connectors" deviceset="M04" device="LOCK"/>
+<part name="JP20" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="M"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH" value="SFE_LOGO_NAME_FLAME.1_INCH"/>
-<part name="JP22" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
+<part name="JP22" library="SparkFun-Connectors" deviceset="M04" device="LOCK"/>
 <part name="SJ3" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-NC_BY_TRACE" device=""/>
 <part name="SJ4" library="SparkFun-Passives" deviceset="JUMPER-PAD-3-NC_BY_TRACE" device=""/>
 <part name="U$1" library="SparkFun-Aesthetics" deviceset="SFE_LUDUS" device="SFE_LUDUS-M"/>
