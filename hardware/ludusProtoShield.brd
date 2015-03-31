@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -421,9 +421,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="CREATIVE_COMMONS">
-<text x="-20.32" y="5.08" size="1.778" layer="51">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="51"> https://creativecommons.org/licenses/by-sa/4.0/</text>
-<text x="11.43" y="0" size="1.778" layer="51">Designed by:</text>
+<text x="-20.32" y="5.08" size="1.778" layer="51" font="vector">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by-sa/4.0/</text>
+<text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
 </package>
 <package name="FIDUCIAL-1X2">
 <smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
@@ -466,7 +466,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_FLAME_.1">
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="0.81" y="1.4"/>
 <vertex x="0.81" y="1.34"/>
 <vertex x="0.83" y="1.29"/>
@@ -580,7 +580,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="0.71" y="1.4"/>
 <vertex x="0.76" y="1.4"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="2.91" y="1.4"/>
 <vertex x="2.94" y="1.48"/>
 <vertex x="2.95" y="1.56"/>
@@ -590,7 +590,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="3.3" y="1.36"/>
 <vertex x="3.25" y="1.24"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="3.25" y="1.24"/>
 <vertex x="3.19" y="1.13"/>
 <vertex x="3.1" y="1.04"/>
@@ -693,7 +693,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="2.88" y="1.33"/>
 <vertex x="2.91" y="1.4"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="3.93" y="1.75"/>
 <vertex x="4.02" y="1.76"/>
 <vertex x="4.11" y="1.77"/>
@@ -710,7 +710,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="4.03" y="1.54"/>
 <vertex x="4.01" y="1.54"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="4.01" y="1.54"/>
 <vertex x="3.98" y="1.53"/>
 <vertex x="3.96" y="1.52"/>
@@ -969,7 +969,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="3.84" y="1.74"/>
 <vertex x="3.93" y="1.75"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="5" y="2.29"/>
 <vertex x="5.05" y="2.3"/>
 <vertex x="5.09" y="2.31"/>
@@ -1051,7 +1051,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="5" y="1.95"/>
 <vertex x="5" y="2.12"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="6.06" y="2.68"/>
 <vertex x="6.45" y="2.89"/>
 <vertex x="6.45" y="1.85"/>
@@ -1065,7 +1065,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="6.45" y="0.94"/>
 <vertex x="6.06" y="0.94"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="7.7" y="2.1"/>
 <vertex x="7.65" y="2.1"/>
 <vertex x="7.6" y="2.1"/>
@@ -1195,7 +1195,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="7.7" y="1.81"/>
 <vertex x="7.7" y="1.95"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="9.79" y="0.94"/>
 <vertex x="9.74" y="0.94"/>
 <vertex x="9.7" y="0.94"/>
@@ -1294,7 +1294,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="9.79" y="1.29"/>
 <vertex x="9.79" y="1.12"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="10" y="2.36"/>
 <vertex x="10.05" y="2.36"/>
 <vertex x="10.1" y="2.36"/>
@@ -1393,7 +1393,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="10" y="2"/>
 <vertex x="10" y="2.18"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="8.25" y="4.78"/>
 <vertex x="8.25" y="4.76"/>
 <vertex x="8.25" y="4.73"/>
@@ -3975,7 +3975,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <rectangle x1="2.4511" y1="4.6609" x2="2.8829" y2="4.6863" layer="21"/>
 </package>
 <package name="SFE_LOGO_FLAME_COPPER_.2">
-<polygon width="0.00508125" layer="1">
+<polygon width="0.01" layer="1">
 <vertex x="3.12" y="4.54"/>
 <vertex x="3.12" y="4.53"/>
 <vertex x="3.12" y="4.49"/>
@@ -5685,6 +5685,7 @@ design rules under a new name.</description>
 <approved hash="3,16,e0fee2fce2fce0fe"/>
 <approved hash="3,16,eefce0fce0f4eef4"/>
 <approved hash="3,16,0ffd13fd13e40fe4"/>
+<approved hash="3,16,f1e5171b171cf1e2"/>
 <approved hash="19,1,65113a99241e94cc"/>
 <approved hash="19,1,43f56ebae07d22e8"/>
 <approved hash="19,1,fa0acf7b1fb4c6c3"/>
