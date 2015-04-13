@@ -32205,7 +32205,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="172.72" y="-14.986" size="2.54" layer="94">I2C Header</text>
 <text x="370.84" y="83.82" size="2.54" layer="94">Motor Outputs</text>
 <text x="325.12" y="-10.16" size="2.54" layer="94">B. Huang</text>
-<text x="396.24" y="-10.16" size="2.54" layer="94">v10</text>
+<text x="396.24" y="-10.16" size="2.54" layer="94">v11</text>
 <wire x1="-25.4" y1="177.8" x2="78.74" y2="177.8" width="0.2032" layer="97" style="longdash"/>
 <wire x1="78.74" y1="177.8" x2="134.62" y2="177.8" width="0.2032" layer="97" style="longdash"/>
 <wire x1="134.62" y1="177.8" x2="195.58" y2="177.8" width="0.2032" layer="97" style="longdash"/>
@@ -32226,6 +32226,14 @@ for Leonardo compatibility.</text>
 <text x="264.16" y="203.2" size="1.27" layer="97">VCC Range: 5V (nominal)
 VIN Range: 5V - 15V</text>
 <text x="198.12" y="193.04" size="1.27" layer="97">QC Test Points</text>
+<text x="220.98" y="7.62" size="1.27" layer="97">Dual Motor Driver:
+Motor A                   Motor B
+------------------------------------------------
+  PWM (pin 3)           PWM (pin 6) 
+  AIN1 (pin 4)            BIN1 (pin 7)
+  AIN2 (pin 5)            BIN2 (pin 8)</text>
+<text x="228.6" y="22.86" size="1.27" layer="97">Max Input Voltage:15V
+Output Current: 1.2A (ave) / 3.2A (peak)</text>
 </plain>
 <instances>
 <instance part="JP21" gate="G$1" x="259.08" y="137.16"/>
@@ -32578,19 +32586,19 @@ VIN Range: 5V - 15V</text>
 <label x="259.08" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="*D6"/>
-<wire x1="116.84" y1="228.6" x2="124.46" y2="228.6" width="0.1524" layer="91"/>
-<label x="124.46" y="228.6" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP6" gate="G$1" pin="3"/>
-<wire x1="5.08" y1="10.16" x2="17.78" y2="10.16" width="0.1524" layer="91"/>
-<label x="17.78" y="10.16" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="TP3" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="238.76" x2="200.66" y2="238.76" width="0.1524" layer="91"/>
 <label x="200.66" y="238.76" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="116.84" y1="236.22" x2="124.46" y2="236.22" width="0.1524" layer="91"/>
+<label x="124.46" y="236.22" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="*D3"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="3"/>
+<wire x1="5.08" y1="63.5" x2="17.78" y2="63.5" width="0.1524" layer="91"/>
+<label x="17.78" y="63.5" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PWMB" class="0">
@@ -32600,19 +32608,19 @@ VIN Range: 5V - 15V</text>
 <label x="259.08" y="40.64" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="*D9"/>
-<wire x1="116.84" y1="220.98" x2="124.46" y2="220.98" width="0.1524" layer="91"/>
-<label x="124.46" y="220.98" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP9" gate="G$1" pin="3"/>
-<wire x1="48.26" y1="81.28" x2="60.96" y2="81.28" width="0.1524" layer="91"/>
-<label x="60.96" y="81.28" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="TP6" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="223.52" x2="200.66" y2="223.52" width="0.1524" layer="91"/>
 <label x="200.66" y="223.52" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="*D6"/>
+<wire x1="116.84" y1="228.6" x2="124.46" y2="228.6" width="0.1524" layer="91"/>
+<label x="124.46" y="228.6" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP6" gate="G$1" pin="3"/>
+<wire x1="5.08" y1="10.16" x2="17.78" y2="10.16" width="0.1524" layer="91"/>
+<label x="17.78" y="10.16" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -33065,18 +33073,6 @@ VIN Range: 5V - 15V</text>
 <label x="200.66" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="D3" class="0">
-<segment>
-<wire x1="116.84" y1="236.22" x2="124.46" y2="236.22" width="0.1524" layer="91"/>
-<label x="124.46" y="236.22" size="1.27" layer="95" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="*D3"/>
-</segment>
-<segment>
-<pinref part="JP3" gate="G$1" pin="3"/>
-<wire x1="5.08" y1="63.5" x2="17.78" y2="63.5" width="0.1524" layer="91"/>
-<label x="17.78" y="63.5" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="A3" class="0">
 <segment>
 <pinref part="JP17" gate="G$1" pin="3"/>
@@ -33323,6 +33319,18 @@ VIN Range: 5V - 15V</text>
 <wire x1="162.56" y1="22.86" x2="167.64" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="22.86" x2="167.64" y2="40.64" width="0.1524" layer="91"/>
 <junction x="167.64" y="40.64"/>
+</segment>
+</net>
+<net name="D9" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="*D9"/>
+<wire x1="116.84" y1="220.98" x2="124.46" y2="220.98" width="0.1524" layer="91"/>
+<label x="124.46" y="220.98" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP9" gate="G$1" pin="3"/>
+<wire x1="48.26" y1="81.28" x2="60.96" y2="81.28" width="0.1524" layer="91"/>
+<label x="60.96" y="81.28" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
