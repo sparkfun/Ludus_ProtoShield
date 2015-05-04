@@ -33100,25 +33100,27 @@ Output Current: 1.2A (ave) / 3.2A (peak)</text>
 </segment>
 <segment>
 <wire x1="271.78" y1="38.1" x2="271.78" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="63.5" x2="287.02" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="38.1" x2="259.08" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="38.1" x2="271.78" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="63.5" x2="271.78" y2="63.5" width="0.1524" layer="91"/>
-<junction x="271.78" y="63.5"/>
+<junction x="287.02" y="63.5"/>
 <pinref part="U2" gate="G$1" pin="VM2"/>
 <pinref part="U2" gate="G$1" pin="VM3"/>
 <pinref part="U2" gate="G$1" pin="VM1"/>
-<wire x1="271.78" y1="63.5" x2="281.94" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="271.78" y1="63.5" x2="287.02" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="63.5" x2="281.94" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="+"/>
 <wire x1="287.02" y1="55.88" x2="287.02" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="63.5" x2="281.94" y2="63.5" width="0.1524" layer="91"/>
 <junction x="281.94" y="63.5"/>
-<wire x1="271.78" y1="63.5" x2="271.78" y2="66.04" width="0.1524" layer="91"/>
-<label x="271.78" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="287.02" y1="63.5" x2="287.02" y2="66.04" width="0.1524" layer="91"/>
+<label x="287.02" y="66.04" size="1.27" layer="95" rot="R90" xref="yes"/>
 <wire x1="256.54" y1="35.56" x2="259.08" y2="35.56" width="0.1524" layer="91" style="longdash"/>
 <wire x1="259.08" y1="35.56" x2="259.08" y2="38.1" width="0.1524" layer="91" style="longdash"/>
 <junction x="259.08" y="38.1"/>
+<junction x="271.78" y="63.5"/>
 </segment>
 <segment>
 <pinref part="S1" gate="1" pin="O"/>
