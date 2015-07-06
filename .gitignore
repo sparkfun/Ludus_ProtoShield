@@ -1,4 +1,25 @@
 #################
+## SparkFun Useful stuff
+#################
+
+## AVR Development
+*.eep
+*.elf
+*.lst
+*.lss
+*.sym
+*.d
+*.o
+*.srec
+*.map
+
+## Notepad++ backup files
+*.bak
+
+## BOM files
+*bom*
+
+#################
 ## Eclipse
 #################
 
@@ -27,6 +48,15 @@ local.properties
 
 # PDT-specific
 .buildpath
+
+
+#############
+## Eagle
+#############
+
+# Ignore the board and schematic backup files
+*.b#?
+*.s#?
 
 
 #################
@@ -115,7 +145,6 @@ Backup*/
 UpgradeLog*.XML
 
 
-
 ############
 ## Windows
 ############
@@ -161,11 +190,3 @@ pip-log.txt
 
 # Mac crap
 .DS_Store
-
-# Eagle
-*.?#?
-eagle.epf
-*.log
-*.eup
-*\eagleUp*
-*.csv
