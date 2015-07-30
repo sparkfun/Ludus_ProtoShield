@@ -11,6 +11,7 @@
  * Ludus is the mascot of the SparkFun Education team. 
  * It is a highly intelligent octopus.
  * 
+ * Please check the License.md file for licensing information.
 */
 
 #include <Servo.h> 
